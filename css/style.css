@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 
 }
 h1{
@@ -9,5 +9,30 @@ h1{
 }
 header{
     width:100%;
-    background-color: aqua;
+    background-color: #517309;
+}
+.logo{
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+}
+nav{
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+}
+.rtx4090{
+    width: 100%;
+}
+.container{
+    background-color: chartreuse;
+    width: 80%;
+    margin: auto;
+}
+footer{
+    background-color: #88BF11;
+    color: #000000;
+    font-size: 1.3em;
+    text-align: center;
+
 }
