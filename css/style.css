@@ -27,7 +27,7 @@ nav{
 .container{
     background-color: chartreuse;
     width: 80%;
-    margin: center;
+    margin: auto;
 }
 footer{
     background-color: #88BF11;
