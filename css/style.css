@@ -3,10 +3,12 @@ body{
 
 }
 h1{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
 
 }
+
+
 header{
     width:100%;
     background-color: #517309;
@@ -28,6 +30,7 @@ nav{
     background-color: chartreuse;
     width: 80%;
     margin: auto;
+    
 }
 footer{
     background-color: #88BF11;
