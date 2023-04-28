@@ -1,41 +1,52 @@
-body{
+body {
     background-image: url(../img/Nvidia_.webp);
 
 }
-h1{
+
+h1 {
     color: rgb(0, 0, 0);
     text-align: center;
 
 }
 
 
-header{
-    width:100%;
+header {
+    width: 100%;
     background-color: #517309;
 }
-.logo{
+
+.logo {
     color: #fff;
     text-align: center;
     font-size: 1.4em;
 }
-nav{
+
+nav {
     color: #fff;
     text-align: center;
     font-size: 1.4em;
 }
-.rtx4090{
-    width: 100%;
+
+.rtx4090 {
+    width: 80%;
+    padding-left: 7.9em;
 }
-.container{
+
+.container {
     background-color: chartreuse;
     width: 80%;
     margin: auto;
-    
+
 }
-footer{
+
+footer {
     background-color: #88BF11;
     color: #000000;
     font-size: 1.3em;
     text-align: center;
 
+}
+
+.PC_Gamer {
+    padding-left: 2.0em;
 }
