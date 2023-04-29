@@ -1,18 +1,25 @@
 body {
-    background-image: url(../img/Nvidia_.webp);
+    background-image: url(../img/fundo-preto.jpg);
+    background-size: 100%;
+    background-position: center center;
 
 }
 
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
+    line-height: 3;
 
 }
 
 
 header {
     width: 100%;
-    background-color: #517309;
+    background-color:#76B900;
+    background-image: url(../img/nvidia-background.png);
+    background-repeat: no-repeat;
+    background-position: auto;
+
 }
 
 .logo {
@@ -25,11 +32,15 @@ nav {
     color: #fff;
     text-align: center;
     font-size: 1.4em;
+    padding-left: 10.0em;
 }
 
-.rtx4090 {
-    width: 80%;
+.RTX-4090 {
+    width: 60%;
     padding-left: 7.9em;
+    padding-left: 22.6em;
+
+    
 }
 
 .container {
@@ -49,4 +60,8 @@ footer {
 
 .PC_Gamer {
     padding-left: 2.0em;
+}
+
+ul li {
+    line-height: 1.3;
 }
