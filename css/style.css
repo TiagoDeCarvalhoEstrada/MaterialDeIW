@@ -2,6 +2,7 @@ body {
     background-image: url(../img/fundo-preto.jpg);
     background-size: 100%;
     background-position: center center;
+    font-family: 'Anton', sans-serif;
 
 }
 
@@ -9,6 +10,8 @@ h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     line-height: 3;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
 
 }
 
@@ -36,9 +39,8 @@ nav {
 }
 
 .RTX-4090 {
-    width: 60%;
-    padding-left: 7.9em;
-    padding-left: 22.6em;
+    width: 100%;
+
 
     
 }
@@ -64,4 +66,12 @@ footer {
 
 ul li {
     line-height: 1.3;
+}
+section {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.PC_Gamer {
+    padding-top: 2%;
 }
