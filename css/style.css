@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-image: url(../img/fundo-preto.jpg);
     background-size: 100%;
@@ -74,4 +77,11 @@ section {
 
 .PC_Gamer {
     padding-top: 2%;
+}
+.github{
+    height: 7em;
+    width: 7em;
+}
+.placas{
+    width: 100%;
 }
