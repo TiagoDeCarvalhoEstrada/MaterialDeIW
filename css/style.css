@@ -109,6 +109,7 @@ width: 3%;
 }
 /* Responsive layout - makes a one column layout instead of a two-column layout */ 
 @media (max-width: 750px) {
+}
     .linha {
       flex-direction: column;
     }
@@ -116,7 +117,24 @@ width: 3%;
     .col-6 {
         width: 100%;
     }
-  }
+.PC_gamer{
+    padding-left: 2%;
+}
   .leon{
-    background-image: ;
+    background-color: #76B900 ;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000f9;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
