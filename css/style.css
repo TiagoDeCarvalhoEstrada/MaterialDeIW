@@ -11,6 +11,7 @@ body {
 p{
     text-align: justify;
     padding-left: 15%;
+    padding-top: 0.5%;
 }
 
 h1 {
@@ -19,7 +20,11 @@ h1 {
     line-height: 3;
     padding-top: 1%;
     padding-bottom: 0.5%;
+}
 
+h2{
+    text-align: center;
+    padding-top: 1.5%;
 }
 
 
@@ -113,23 +118,27 @@ width: 3%;
 .PC_gamer{
     padding-left: 2%;
 }
-  .leon{
-    background-image: linear-gradient(to left, #76b900, #b7e070, #76B900)
-    border-style: inset; 
-    
-  }
+.leon{
+    background-image: linear-gradient(to left, #76b900, #b7e070, #76B900);
+    border-style: inset;
+    border-color: #000000f9;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgb(0, 0, 0);
+    margin: 2%;
+
+}
   table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
   td, th {
     border: 1px solid #000000f9;
     text-align: left;
     padding: 8px;
-  }
+}
   
   tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
