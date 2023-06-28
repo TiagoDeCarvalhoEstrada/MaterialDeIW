@@ -47,9 +47,6 @@ padding-left: 10.0em;
 
 .RTX-4090 {
 width: 100%;
-
-
-    
 }
 
 .container {
@@ -102,14 +99,8 @@ width: 3%;
 .col-6{
     width: 50%;
 }
-.curi{
-    padding-left: 2%;
-    width: 100%;
-
-}
 /* Responsive layout - makes a one column layout instead of a two-column layout */ 
 @media (max-width: 750px) {
-}
     .linha {
       flex-direction: column;
     }
@@ -117,11 +108,15 @@ width: 3%;
     .col-6 {
         width: 100%;
     }
+}
+
 .PC_gamer{
     padding-left: 2%;
 }
   .leon{
-    background-color: #76B900 ;
+    background-image: linear-gradient(to left, #76b900, #b7e070, #76B900)
+    border-style: inset; 
+    
   }
   table {
     font-family: arial, sans-serif;
