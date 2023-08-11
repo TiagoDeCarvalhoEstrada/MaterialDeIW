@@ -142,3 +142,6 @@ width: 3%;
   tr:nth-child(even) {
     background-color: #dddddd;
 }
+.logo-topo{
+    width: 15%;
+}
