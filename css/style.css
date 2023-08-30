@@ -31,23 +31,59 @@ h2{
 header {
     width: 100%;
     background-color:#76B900;
-    background-image: url(../img/nvidia-background.png);
-    background-repeat: no-repeat;
-    background-position: auto;
-
+    padding: 1.5%;  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
     color: #fff;
-    text-align: center;
-    font-size: 1.4em;
+    text-align: left;
+    font-size: 1.9em;
+    
+}
+.logo-topo{
+    width: 25%;
+    text-align: left;
+    left: 2%;
+}
+
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    line-height: 1;
+}
+
+.itens_menu{
+    position: relative;
+    float: right;
+}
+
+.itens_menu a{
+  font-size: 1.2em;
+}
+
+.itens_menu a:hover {
+    color: #fff;
+    padding: 0.8%;    
+    text-decoration: none;
+    border-radius: 15%;
+  }
+  
+.itens_menu a:active {
+    color: #FFF;
+    text-decoration: none;
 }
 
 nav {
 color: #fff;
 text-align: center;
 font-size: 1.4em;
-padding-left: 10.0em;
 }
 
 .RTX-4090 {
@@ -58,7 +94,6 @@ width: 100%;
 background-color: chartreuse;
 width: 80%;
 margin: auto;
-
 }
 
 footer {
@@ -141,7 +176,4 @@ width: 3%;
   
   tr:nth-child(even) {
     background-color: #dddddd;
-}
-.logo-topo{
-    width: 15%;
 }
