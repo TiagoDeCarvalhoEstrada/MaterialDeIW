@@ -9,13 +9,13 @@ body {
 }
 
 header {
-    width: 100%;
+    padding: 1.5%;
     background-color:#fefffc;
     padding: 1.0%;  
     position: relative;
-    display: inline;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 .fixo{
     position: fixed;
@@ -24,19 +24,30 @@ header {
     right: 0;
     z-index: 1;  
 }
-/* Apartir daqui, tudo sobre o menu (resposivo)*/
+/* Apartir daqui, tudo sobre o menu (responsivo)*/
 .logo-img{ 
-    width: 10%;
+    width: 35%;
 }
-.itens_menu ul li{
+.logo{
+    text-align: left;
+    width: 20%;
+    left: 0;
+    display: flex;
+}
+.itens_menu{
     line-height: 1.5;
     text-align: center;
+}
+.itens_menu ul li{
+    line-height: 1.9;
+    text-align: right;
     display: inline;  
-    padding-left: 2.0;
-  }
+    padding-left: 3.0;
+    top: 1%;
+}
 .itens_menu a{
     font-size: 1.2em;
-    padding-left: 2.0em;
+    padding-left: 1.0em;
 }
 .itens_menu a:link, .itens_menu a:visited{ 
     color: #0a0a0a;
@@ -47,7 +58,7 @@ header {
     padding: 0.8%;    
     background-color: rgba(128, 128, 128, 0.3); 
     text-decoration: none;
-    border-radius: 15%;
+    border-radius: 10%;
 }
 .itens_menu a:active {
     color: #FFF;
@@ -59,7 +70,6 @@ p{
     padding-top: 0.5%;;
     color: #dddddd;
 }
-
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -67,7 +77,6 @@ h1 {
     padding-top: 1%;
     padding-bottom: 0.5%;
 }
-
 h2{
     text-align: center;
     padding-top: 1.5%;
@@ -86,28 +95,23 @@ nav {
     text-align: center;
     font-size: 1.0em;
 }
-
 .RTX-4090 {
     width: 100%;
 }
-
 .container {
     background-color:#1E1E1E;
     width: 80%;
     margin: auto;
 }
-
 footer {
     background-color: 1E1E1E;
     color: #000000;
     font-size: 1.3em;
     text-align: center;
-
 }
 .foot{
     padding-top: 1%;
 }
-
 .ListProb {
     line-height: 1.3;
     text-align: justify;
@@ -141,7 +145,7 @@ section {
     width: 50%;
 }
 /* Responsive layout - makes a one column layout instead of a two-column layout */ 
-@media (max-width: 750px) {
+@media (max-width: 500px) {
     .linha {
       flex-direction: column;
     }
@@ -150,7 +154,6 @@ section {
         width: 100%;
     }
 }
-
 .PC_gamer{
     padding-left: 2%;
 }
@@ -162,20 +165,17 @@ section {
     box-shadow: 15px 15px 15px 2px rgb(0, 0, 0);
     margin: 2%;
     padding-top: 2.0em;
-
 }
   table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
-  
   td, th {
     border: 1px solid #000000f9;
     text-align: left;
     padding: 8px;
-}
-  
+} 
   tr:nth-child(even) {
     background-color: #dddddd;
 }
