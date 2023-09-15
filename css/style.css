@@ -101,7 +101,7 @@ nav {
     text-align: center;
     font-size: 1.0em;
 }
-.banner {
+.RTX-4090 {
     width: 100%;
 }
 .container {
@@ -154,13 +154,11 @@ section {
 
 @media screen and (max-width: 800px) {
 header{
-    flex-direction: column;
+    flex-direction: flex;
 }
-.banner{
-    margin-top: 8%;
-}
+
 .itens_menu{
-    
+    flex-direction: column;
 }
 .logo{
     padding-top: 1%;
