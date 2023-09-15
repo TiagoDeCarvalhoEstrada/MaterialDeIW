@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    padding: 1.5%;
+    padding: flex;
     background-color:#fefffc;
     padding: 1.0%;  
     position: relative;
@@ -24,23 +24,31 @@ header {
     right: 0;
     z-index: 1;  
 }
+
+.li {
+    display: inline;
+}
+
 /* Apartir daqui, tudo sobre o menu (responsivo)*/
 .logo-img{ 
-    width: 35%;
+    width: 40%;
 }
 .logo{
     text-align: left;
-    width: 20%;
-    left: 0;
-    display: flex;
+    width: 30%;
+    font-size: 1.4em;
+    right: 0;
+    padding-left: 2%;
+    float: left;
 }
 .itens_menu{
     line-height: 1.5;
     text-align: center;
+    font-size: 1em;
 }
 .itens_menu ul li{
     line-height: 1.9;
-    text-align: right;
+    text-align: center;
     display: inline;  
     padding-left: 3.0;
     top: 1%;
@@ -54,8 +62,6 @@ header {
     text-decoration: none;
 }  
 .itens_menu a:hover {
-    color: #fff;
-    padding: 0.8%;    
     background-color: rgba(128, 128, 128, 0.3); 
     text-decoration: none;
     border-radius: 10%;
@@ -95,7 +101,7 @@ nav {
     text-align: center;
     font-size: 1.0em;
 }
-.RTX-4090 {
+.banner {
     width: 100%;
 }
 .container {
@@ -145,14 +151,26 @@ section {
     width: 50%;
 }
 /* Responsive layout - makes a one column layout instead of a two-column layout */ 
-@media (max-width: 500px) {
-    .linha {
-      flex-direction: column;
-    }
 
-    .col-6 {
-        width: 100%;
-    }
+@media screen and (max-width: 800px) {
+header{
+    flex-direction: column;
+}
+.banner{
+    margin-top: 8%;
+}
+.itens_menu{
+    
+}
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width: 30%;
+}
+.descer{
+    margin-top: 10%;
+}
 }
 .PC_gamer{
     padding-left: 2%;
@@ -187,4 +205,23 @@ h3{
 }
 .escrita_c2{
     color: #1E1E1E;
+}
+/*CONTATO*/
+.container-CTT{
+    background-color: #1E1E1E;
+    padding: 3%;
+    border-radius: 10px;
+    margin: 1%;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.col-25{
+    text-decoration-color: #a7a8a4;
+    padding-top: 1.5%;
+}
+.col-75{
+    padding-top: 1.5%;
+    width: 2%;
 }
